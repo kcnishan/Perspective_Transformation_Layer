@@ -33,7 +33,7 @@ Image segmentation is a domain of computer vision in which a image is divided in
 
 Datasets:We used Oxford-IIIT pet datasets. The datasets consists of 37 category pet dataset consisting of 200 images for each class.
 
-Architecture:We used the famous U-net architecture  for our task. The U-net is U shaped architecture and has two major parts:contracting part(downsampling) having general convolution process and expansive part(upsampling) with transposed 2D convolution layers. We inserted two PT layers with single transformation matrix: One PT layer after the first double convolution of contracting part and the next PT layer after the last double convolution of expansive part.The size of input images were 128*128*3.
+Architecture:We used the famous U-net architecture  for our task. The U-net is U shaped architecture and has two major parts:contracting part(downsampling) having general convolution process and expansive part(upsampling) with transposed 2D convolution layers. We inserted two PT layers with single transformation matrix: One PT layer after the first double convolution of contracting part and the next PT layer after the last double convolution of expansive part. The size of input images were *128 by 128 by 3*.
 
 Experiment Scheme:We trained two models: the baseline U-net model and the model with PT layers under the same training configuration. We trained the model for 200 epochs and evaluated both models using dice coefficient.
 
