@@ -49,6 +49,14 @@ Figure : Visualizations of segmentation results. First column: input images; Sec
 1. Jaderberg, M., Simonyan, K., Zisserman, A., and Kavukcuoglu, K. (2015). Spatial transformer networks. NeurIPS, 28:2017–2025
 2. Pan, T., Wang, B., Ding, G., Han, J., and Yong, J. (2019). Low shot box correction for weakly supervised object detection. In IJCAI, pages 890–896
 
+## Paper Citation
+Nishan Khatri, Agnibh Dasgupta, Yucong Shen, Xin Zhong,Frank Y.Shih. 2022. Perspective Transformation Layer. 2022 International Conference on Computational Science & Computational Intelligence (CSCI'22).
 
+https://arxiv.org/abs/2201.05706
+
+
+## Attribution
+
+https://github.com/daviddao/spatial-transformer-tensorflow
 
 
